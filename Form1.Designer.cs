@@ -123,6 +123,11 @@ namespace Лабораторная_работа__4_ч._2
             0,
             0,
             0});
+            this.numericUpDown2.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(100, 20);
             this.numericUpDown2.TabIndex = 4;
@@ -175,6 +180,11 @@ namespace Лабораторная_работа__4_ч._2
             0,
             0,
             0});
+            this.numericUpDown4.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(100, 20);
             this.numericUpDown4.TabIndex = 12;
@@ -183,6 +193,7 @@ namespace Лабораторная_работа__4_ч._2
             0,
             0,
             0});
+            this.numericUpDown4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.numericUpDown4_KeyDown);
             // 
             // richTextBox4
             // 
@@ -191,6 +202,7 @@ namespace Лабораторная_работа__4_ч._2
             this.richTextBox4.Size = new System.Drawing.Size(100, 96);
             this.richTextBox4.TabIndex = 14;
             this.richTextBox4.Text = "34";
+            this.richTextBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.richTextBox4_KeyDown);
             // 
             // textBox4
             // 
@@ -199,6 +211,7 @@ namespace Лабораторная_работа__4_ч._2
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 13;
             this.textBox4.Text = "34";
+            this.textBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox4_KeyDown);
             // 
             // label3
             // 
@@ -226,6 +239,7 @@ namespace Лабораторная_работа__4_ч._2
             0,
             0,
             0});
+            this.numericUpDown3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.numericUpDown3_KeyDown);
             // 
             // richTextBox3
             // 
@@ -234,6 +248,7 @@ namespace Лабораторная_работа__4_ч._2
             this.richTextBox3.Size = new System.Drawing.Size(100, 96);
             this.richTextBox3.TabIndex = 10;
             this.richTextBox3.Text = "15";
+            this.richTextBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.richTextBox3_KeyDown);
             // 
             // textBox3
             // 
@@ -242,6 +257,7 @@ namespace Лабораторная_работа__4_ч._2
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 9;
             this.textBox3.Text = "15";
+            this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox3_KeyDown);
             // 
             // Form1
             // 
